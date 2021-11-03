@@ -1,0 +1,38 @@
+Thumbs.db
+.DS_Store
+.gradle
+build/
+target/
+out/
+.idea
+*.iml
+*.ipr
+*.iws
+.project
+.settings
+.classpath
+.factorypath
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/src/release-notes-ui/node_modules
+/src/release-notes-ui/.pnp
+/src/release-notes-ui/.pnp.js
+
+# testing
+/src/release-notes-ui/coverage
+
+# production
+/src/release-notes-ui/build
+
+# misc
+/src/release-notes-ui/.DS_Store
+/src/release-notes-ui/.env.local
+/src/release-notes-ui/.env.development.local
+/src/release-notes-ui/.env.test.local
+/src/release-notes-ui/.env.production.local
+
+/src/release-notes-ui/npm-debug.log*
+/src/release-notes-ui/yarn-debug.log*
+/src/release-notes-ui/yarn-error.log*
